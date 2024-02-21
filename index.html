@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet"/>
+</head>
+<body>
+    <section class="logged-out-view" id="logged-out-view">
+        <div class="container">
+            <h1>Jabber</h1>
+            <form id="login-form">
+                <label for="username">enter username</label>
+                <input 
+                    id="username"
+                    name="username"
+                    placeholder="username"
+                >
+                <button type="submit">Jab It</button>
+            </form>
+        </div>
+    </section>
+    <section id="logged-in-view" class="logged-in-view">
+        <div id="chats" class="chats">
+        </div>
+        <div class="container-two">
+            <textarea 
+                id="message-input"
+                placeholder="Message"
+                name="message-input"
+            ></textarea>
+            <button id="jabBtn">Jab</button>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
