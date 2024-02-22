@@ -11,7 +11,6 @@ body{
     background: url('https://media.giphy.com/media/cIJyNTHOIbR69gcMSb/giphy-downsized-large.gif');
     background-size: cover;
     max-width: 390px;
-    border: 2px solid black;
     height: 100vh;
     margin: 0 auto;
 }
@@ -69,14 +68,12 @@ form > button:hover{
     background-size: cover;
     max-width: 390px;
     width: 100%;
-    border: 2px solid black;
     height: 100vh;
     margin: 0 auto;
     position: relative;
 }
 
 .container-two{
-    border: 2px solid black;
     display: flex;
     justify-content: space-around;
     position: absolute;
